@@ -1,0 +1,37 @@
+QUERY = """
+    SELECT md.chembl_id, cs.canonical_smiles, cp.mw_freebase
+    FROM compound_structures AS cs
+    JOIN compound_properties AS cp USING (molregno)
+    JOIN molecule_dictionary AS md USING (molregno)
+    WHERE cs.canonical_smiles IS NOT NULL
+      AND cp.mw_freebase <= 300
+      AND cp.alogp <= 5
+      AND cp.hbd <= 5
+      AND cp.hba <= 5
+      AND cp.rtb <= 5
+"""
+
+structures with SMILES: 2,897,819
+rule-of-three rows:     359,619 (12.4%)
+
+359,619 rows -> 339,291 unique fragments
+339,291 rows | 339,291 unique SMILES
+
+QUERY filters on: mw_freebase <= 300, alogp <= 5, hbd <= 5, hba <= 5, rtb <= 5
+rows within MW alone: 451,239
+fragments on disk:    339,291 (unparsable: 0)
+
+91,620 of the 451,239 rows within MW (20.3%) are rejected by another property
+all four properties NULL (elements, inorganics): 3,234
+
+rows carrying stereochemistry:      84,117
+distinct skeletons ignoring stereo: 325,861 of 339,291 rows
+largest set (16 rows): CN1C(=O)C(O)C(c2ccccc2)C1C(O)c1ccccc1
+
+fingerprint matrix: (339291, 2048) (695 MB)
+all-zero fingerprints: 0
+bits never used: 0 of 2048
+
+93,892 distinct scaffolds over 333,289 fragments (6,002 acyclic, no scaffold)
+singleton scaffolds: 64,337 (69% of scaffolds)
+rare set: 16,964 scaffolds -> 16,964 fragments (5.00% of the 339,291 plotted), up to 1 fragments per scaffold
