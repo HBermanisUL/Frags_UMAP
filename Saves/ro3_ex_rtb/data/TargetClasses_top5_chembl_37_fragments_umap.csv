@@ -1,0 +1,67 @@
+protein_class,n_fragments,n_targets,n_activities
+Methyl-lysine/arginine binding protein,1345,15,1666
+Nuclear hormone receptor subfamily 1,930,24,1757
+Protein methyltransferase,839,15,936
+Small molecule receptor (family A GPCR),831,130,10093
+Protein Kinase,689,278,3063
+Lysine demethylase,658,15,956
+Plant homeodomain,626,14,873
+Peptide receptor (family B GPCR),581,9,830
+Bromodomain,579,18,696
+SLC superfamily of solute carriers,576,103,2335
+Serine protease,541,47,1075
+Metallo protease,499,68,1410
+Cytochrome P450 family 3,434,2,806
+Cytochrome P450 family 2,432,10,2136
+Cysteine protease,430,42,750
+Peptide receptor (family A GPCR),427,66,3433
+Cytochrome P450 family 1,370,5,547
+Histone deacetylase,350,20,1100
+Nuclear hormone receptor subfamily 3,294,10,1309
+Protein Phosphatase,199,30,541
+Potassium channels,147,12,260
+Histone acetyltransferase,144,7,179
+Transient receptor potential channel,95,11,265
+ATP-binding cassette,87,13,234
+GABA-A receptor,84,4,124
+Phosphodiesterase 4,83,3,88
+Phosphodiesterase 3,82,1,87
+Nicotinic acetylcholine receptor,76,11,103
+Cytochrome P450 family 5,61,1,118
+Ionotropic glutamate receptor,60,9,71
+Nuclear hormone receptor subfamily 4,58,4,104
+5HT3 receptor,55,5,109
+Phosphodiesterase 5,52,2,104
+Nuclear hormone receptor subfamily 2,46,3,60
+Voltage-gated calcium channel,39,6,56
+Taste receptor (taste family GPCR),32,3,34
+Aspartic protease,26,4,44
+Small molecule receptor (family C GPCR),24,13,50
+Amino acid-polyamine-organocation family,17,2,22
+Voltage-gated sodium channel,16,8,45
+Protein-glutamine glutamyl-transferase,14,4,30
+Cytochrome P450 family 4,14,3,79
+Cytochrome P450 family 19,12,1,14
+Endoplasmic reticular retrotranslocon family,6,1,12
+Acid-sensing ion channel,5,3,24
+DNA methyltransferase,5,3,6
+Miscellaneous ion channel,5,3,8
+Phosphodiesterase 10,5,1,6
+Threonine protease,5,1,17
+YEATS domain,5,1,5
+P2X receptor,4,3,38
+Aquaporin,3,3,15
+Chloride channel,3,1,6
+Cytochrome P450 family 17,3,1,7
+Cytochrome P450 family 11,2,1,2
+Cytochrome P450 family 51,2,1,2
+Nuclear hormone receptor subfamily 0,2,1,2
+Phosphodiesterase 2,2,1,4
+Phosphodiesterase 6,2,1,2
+F-type and V-type ATPases,1,2,4
+Taste receptor (family C GPCR),1,2,4
+Cyclic nucleotide-regulated channel,1,1,2
+Glycine receptor,1,1,1
+Oxidoreduction-driven transporters,1,1,1
+P-type ATPase,1,1,1
+Protease unclassified,1,1,1

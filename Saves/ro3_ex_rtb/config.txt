@@ -1,0 +1,46 @@
+Settings used for generating data and artefacts: 
+
+Query: 
+___________________________
+mw_freebase <= 300
+alogp <= 3
+hbd <= 3
+hba <= 3
+rtb <= 6
+
+Main configs:
+___________________________
+FLATTEN = True
+RADIUS = 2          
+N_BITS = 2048
+N_NEIGHBORS = 15
+MIN_DIST = 0.1
+
+Over-represented scaffolds: 
+___________________________
+SCAFFOLD_END = "top"
+SCAFFOLD_NUMBER = 5 
+SCAFFOLD_FRACTION = None 
+SCAFFOLD_BASIS = "scaffolds"
+
+MIN_CLUSTER_SIZE = 200
+MIN_SAMPLES = None
+CLUSTER_SELECTION_METHOD = "scaffold"
+N_CLUSTERS_SHOWN = 5 
+
+N_TARGETS_SHOWN = 10
+PROTEIN_CLASS_LEVEL = 3
+TARGET_TYPES = ("SINGLE PROTEIN",)
+TARGET_LABEL = "gene"
+
+Under-represented scaffolds: 
+___________________________
+SCAFFOLD_END = "bottom"
+SCAFFOLD_NUMBER = None 
+SCAFFOLD_FRACTION = 0.05 
+SCAFFOLD_BASIS = "fragments"
+
+MIN_CLUSTER_SIZE = 200
+MIN_SAMPLES = None
+CLUSTER_SELECTION_METHOD = "eom"
+N_CLUSTERS_SHOWN = 5 
