@@ -1,0 +1,61 @@
+protein_class,n_fragments,n_targets,n_activities
+Methyl-lysine/arginine binding protein,711,12,911
+Nuclear hormone receptor subfamily 1,646,22,1285
+Protein Kinase,501,249,2435
+Protein methyltransferase,487,15,543
+Small molecule receptor (family A GPCR),434,118,6646
+Lysine demethylase,432,15,679
+SLC superfamily of solute carriers,411,93,1726
+Serine protease,395,37,834
+Plant homeodomain,379,14,567
+Bromodomain,359,17,448
+Peptide receptor (family B GPCR),335,8,503
+Cysteine protease,304,34,562
+Peptide receptor (family A GPCR),299,51,2415
+Metallo protease,284,48,896
+Cytochrome P450 family 3,275,2,519
+Cytochrome P450 family 2,268,10,1418
+Histone deacetylase,247,18,670
+Nuclear hormone receptor subfamily 3,244,10,1013
+Cytochrome P450 family 1,223,5,345
+Protein Phosphatase,161,27,429
+Potassium channels,114,7,194
+Histone acetyltransferase,94,5,115
+Transient receptor potential channel,65,11,223
+ATP-binding cassette,63,12,154
+GABA-A receptor,61,4,85
+Phosphodiesterase 4,58,2,61
+Phosphodiesterase 3,58,1,61
+Nuclear hormone receptor subfamily 4,52,4,95
+Cytochrome P450 family 5,45,1,91
+Nuclear hormone receptor subfamily 2,41,2,53
+Phosphodiesterase 5,41,2,82
+Nicotinic acetylcholine receptor,38,8,55
+5HT3 receptor,32,5,82
+Ionotropic glutamate receptor,32,2,39
+Taste receptor (taste family GPCR),25,3,27
+Voltage-gated calcium channel,24,5,32
+Aspartic protease,23,4,41
+Protein-glutamine glutamyl-transferase,14,4,30
+Small molecule receptor (family C GPCR),9,9,30
+Voltage-gated sodium channel,7,6,27
+Amino acid-polyamine-organocation family,7,2,7
+Cytochrome P450 family 19,7,1,7
+Endoplasmic reticular retrotranslocon family,6,1,12
+Phosphodiesterase 10,5,1,6
+Threonine protease,5,1,17
+YEATS domain,5,1,5
+Miscellaneous ion channel,4,3,6
+DNA methyltransferase,4,2,5
+Cytochrome P450 family 4,3,2,18
+P2X receptor,3,2,36
+Chloride channel,3,1,6
+Acid-sensing ion channel,2,3,12
+Phosphodiesterase 2,2,1,4
+Aquaporin,1,2,7
+Cyclic nucleotide-regulated channel,1,1,2
+Cytochrome P450 family 11,1,1,1
+Cytochrome P450 family 17,1,1,2
+Glycine receptor,1,1,1
+Oxidoreduction-driven transporters,1,1,1
+P-type ATPase,1,1,1
